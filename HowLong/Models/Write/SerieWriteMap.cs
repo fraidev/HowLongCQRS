@@ -11,9 +11,6 @@ namespace HowLong.Models.Write
             Id(x => x.Id, "Id").GeneratedBy.Identity().UnsavedValue(0);
             Map(x => x.Nome);
             Map(x => x.Produtora);
-            //HasMany(x => x.Voto).Access.CamelCaseField(Prefix.Underscore);
-            //    .Inverse()
-            //    .KeyColumn("Id");
         }
     }
     
@@ -23,7 +20,7 @@ namespace HowLong.Models.Write
         {
             Table("Votos");
             Id(x => x.Id);
-            Map(x => x.SerieId);
+            References<SerieWrite>(x => x.SerieId);
             Map(x => x.Nota);
             Map(x => x.Data);
         }

@@ -34,7 +34,7 @@ namespace HowLong.Models.Write.CommandHandlers
         }
 
         // Handle de VOTAR
-        public void HandleVotar(Votar cmd, int idSerie)
+        public void HandleVotar(Votar cmd)
         {
             if (cmd.Nota==null)
             {
@@ -44,9 +44,9 @@ namespace HowLong.Models.Write.CommandHandlers
             var voto = new Voto
             {
                 Id = cmd.Id,
-                SerieId = idSerie,
+                SerieId = cmd.SerieId,
                 Nota = cmd.Nota,
-                Data = cmd.Data
+                Data = DateTime.Today
             };
             
             //usa o NHibernate para Add NO DB

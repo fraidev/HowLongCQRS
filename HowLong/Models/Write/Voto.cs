@@ -10,9 +10,9 @@ namespace HowLong.Models.Write
     {
         //public int Id { get; set; }
         public int Id { get; set; }
-        public int SerieId { get; set; }
+        public SerieWrite SerieId { get; set; }
         public int Nota { get; set; }
-        public int Data { get; set; }
+        public DateTime Data { get; set; }
         
     }
 }

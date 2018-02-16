@@ -39,9 +39,9 @@ namespace HowLong.Controllers
         [AllowAnonymous]
         [Route("Votar")]
         [HttpPost]
-        public IHttpActionResult Votar(Votar cmd, int idSerie)
+        public IHttpActionResult Votar(Votar cmd)
         {
-            _serieCommandHandler.HandleVotar(cmd, idSerie);
+            _serieCommandHandler.HandleVotar(cmd);
             return Ok();
         }
 
