@@ -149,7 +149,6 @@
     <Compile Include="Models\Write\SerieWrite.cs" />
     <Compile Include="Models\Write\SerieWriteMap.cs" />
     <Compile Include="Models\Write\Voto.cs" />
-    <Compile Include="Models\Write\VotoMap.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

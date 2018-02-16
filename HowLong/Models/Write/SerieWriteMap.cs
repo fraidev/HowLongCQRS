@@ -9,12 +9,23 @@ namespace HowLong.Models.Write
             Table("Series");
 
             Id(x => x.Id, "Id").GeneratedBy.Identity().UnsavedValue(0);
-
             Map(x => x.Nome);
-            Map(x => x.Produtor);
-            HasMany<Voto>(x => x.Voto)
-                .Inverse()
-                .KeyColumn("Id");
+            Map(x => x.Produtora);
+            //HasMany(x => x.Voto).Access.CamelCaseField(Prefix.Underscore);
+            //    .Inverse()
+            //    .KeyColumn("Id");
+        }
+    }
+    
+    public class VotoMap : ClassMap<Voto>
+    {
+        public VotoMap()
+        {
+            Table("Votos");
+            Id(x => x.Id);
+            Map(x => x.SerieId);
+            Map(x => x.Nota);
+            Map(x => x.Data);
         }
     }
 }

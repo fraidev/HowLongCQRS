@@ -7,8 +7,11 @@ namespace HowLong.Models.Write.Commands
 {
     public class Votar
     {
-        public int SerieId { get; set; }
+        // public int Id { get; set; }
+        public int Id { get; set; }
+        //public int SerieId { get; set; }
         public int Nota { get; set; }
-        public DateTime Data { get; set; }
+        public int Data { get; set; }
+        
     }
 }

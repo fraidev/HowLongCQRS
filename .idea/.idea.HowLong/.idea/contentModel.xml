@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\felipe.cardozo\.Rider2017.3\system\resharper-host\local\Transient\ReSharperHost\v11\SolutionCaches\_HowLong.-519300708.00" t="ExcludeRecursive" />
+    <e p="C:\Users\felipe.cardozo\Documents\GitHub\HowLongCQRS" t="IncludeFlat">
+      <e p="HowLong" t="IncludeRecursive">
+        <e p="App_Data" t="Include" />
+        <e p="App_Start" t="Include">
+          <e p="SwaggerConfig.cs" t="Include" />
+          <e p="WebApiConfig.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="SeriesController.cs" t="Include" />
+        </e>
+        <e p="Global.asax" t="Include" />
+        <e p="Global.asax.cs" t="Include" />
+        <e p="Helper" t="Include">
+          <e p="NHibernateHelper.cs" t="Include" />
+        </e>
+        <e p="HowLong.csproj" t="IncludeRecursive" />
+        <e p="Models" t="Include">
+          <e p="Read" t="Include">
+            <e p="Persistance" t="Include">
+              <e p="ISerieReadRepository.cs" t="Include" />
+              <e p="SerieRepository.cs" t="Include" />
+            </e>
+            <e p="SerieRead.cs" t="Include" />
+            <e p="SerieReadMap.cs" t="Include" />
+          </e>
+          <e p="Write" t="Include">
+            <e p="CommandHandlers" t="Include">
+              <e p="SerieCommandHandler.cs" t="Include" />
+            </e>
+            <e p="Commands" t="Include">
+              <e p="CadastrarSerie.cs" t="Include" />
+              <e p="Votar.cs" t="Include" />
+            </e>
+            <e p="Persistance" t="Include">
+              <e p="ISerieWriteRepository.cs" t="Include" />
+              <e p="SerieRepository.cs" t="Include" />
+            </e>
+            <e p="SerieWrite.cs" t="Include" />
+            <e p="SerieWriteMap.cs" t="Include" />
+            <e p="Voto.cs" t="Include" />
+          </e>
+        </e>
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Web.config" t="Include" />
+        <e p="Web.Debug.config" t="Include" />
+        <e p="Web.Release.config" t="Include" />
+      </e>
+      <e p="HowLong.sln" t="IncludeFlat" />
+      <e p="HowLong.Tests" t="IncludeRecursive">
+        <e p="app.config" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="HowLong.Tests.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="UnitTest1.cs" t="Include" />
+      </e>
+      <e p="packages" t="ExcludeRecursive">
+        <e p="MSTest.TestAdapter.1.1.17\build\_common\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll" t="Include" />
+        <e p="MSTest.TestAdapter.1.1.17\build\_common\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll" t="Include" />
+        <e p="MSTest.TestAdapter.1.1.17\build\_common\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll" t="Include" />
+      </e>
+    </e>
+  </component>
+</project>

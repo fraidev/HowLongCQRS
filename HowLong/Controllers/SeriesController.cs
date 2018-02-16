@@ -32,7 +32,16 @@ namespace HowLong.Controllers
         [HttpPost]
         public IHttpActionResult Cadastrar(CadastrarSerie cmd)
         {
-            _serieCommandHandler.Handle(cmd);
+            _serieCommandHandler.HandleCadastrar(cmd);
+            return Ok();
+        }
+
+        [AllowAnonymous]
+        [Route("Votar")]
+        [HttpPost]
+        public IHttpActionResult Votar(Votar cmd, int idSerie)
+        {
+            _serieCommandHandler.HandleVotar(cmd, idSerie);
             return Ok();
         }
 
@@ -46,8 +55,10 @@ namespace HowLong.Controllers
         public IHttpActionResult Top(int total)
         {
             // TODO obter os top n do modelo de leitura.
+
             return Ok();
         }
+
         #endregion
 
     }

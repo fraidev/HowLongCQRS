@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using HowLong.Helper;
+using HowLong.Models.Write.Commands;
 
 namespace HowLong.Models.Write.Persistance
 {
@@ -16,7 +17,7 @@ namespace HowLong.Models.Write.Persistance
                     .SingleOrDefault();
         }
 
-        public SerieWrite Add(SerieWrite serie)
+        public SerieWrite AddSerie(SerieWrite serie)
         {
             using (var session = NHibernateHelper.OpenSession())
             {
@@ -28,6 +29,20 @@ namespace HowLong.Models.Write.Persistance
                 return serie;
             }
         }
+        
+        public Voto AddVoto(Voto voto)
+        {
+            using (var session = NHibernateHelper.OpenSession())
+            {
+                using (var transaction = session.BeginTransaction())
+                {
+                    session.Save(voto);
+                    transaction.Commit();
+                }
+                return voto;
+            }
+        }
+
 
         public void Delete(int id)
         {

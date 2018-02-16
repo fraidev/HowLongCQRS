@@ -15,7 +15,7 @@ namespace HowLong.Helper
     {
         
         private static ISessionFactory _sessionFactory;
-        //const string ConnectionString = @"Data Source=.;Initial Catalog=HowLongDb;Integrated Security=SSPI;";
+        //const string ConnectionString = @"Data Source=.;Initial Catalog=HowLongDB;Integrated Security=SSPI;";
         private static ISessionFactory SessionFactory
         {
             get

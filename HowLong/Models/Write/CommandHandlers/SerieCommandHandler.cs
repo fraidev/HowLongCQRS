@@ -15,22 +15,47 @@ namespace HowLong.Models.Write.CommandHandlers
         {
             _serieWriteRepository = serieWriteRepository;
         }
-        public void Handle(CadastrarSerie cmd)
+        public void HandleCadastrar(CadastrarSerie cmd)
         {
             if (string.IsNullOrEmpty(cmd.Nome))
             {
                 throw new Exception("Nome deve ser informado.");
             }
-
+            
             var serieWrite = new SerieWrite
             {
                 Id = cmd.Id,
-                Nome = cmd.Nome
+                Nome = cmd.Nome,
+                Produtora = cmd.Produtora
             };
 
-            _serieWriteRepository.Add(serieWrite);
+            //usa o NHibernate para Add NO DB
+            _serieWriteRepository.AddSerie(serieWrite);
         }
 
-        // TODO handle para comando Votar
+        // Handle de VOTAR
+        public void HandleVotar(Votar cmd, int idSerie)
+        {
+            if (cmd.Nota==null)
+            {
+                throw new Exception("Nota deve ser informado.");
+            }
+
+            var voto = new Voto
+            {
+                Id = cmd.Id,
+                SerieId = idSerie,
+                Nota = cmd.Nota,
+                Data = cmd.Data
+            };
+            
+            //usa o NHibernate para Add NO DB
+            _serieWriteRepository.AddVoto(voto);
+        }
+        
+        // TOP SERIES
+        public void HandleTop(Votar cmd)
+        {
+        }
     }
 }
