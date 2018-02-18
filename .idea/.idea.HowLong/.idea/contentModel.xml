@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\felipe.cardozo\.Rider2017.3\system\resharper-host\local\Transient\ReSharperHost\v11\SolutionCaches\_HowLong.-519300708.00" t="ExcludeRecursive" />
-    <e p="C:\Users\felipe.cardozo\Documents\GitHub\HowLongCQRS" t="IncludeFlat">
+    <e p="C:\Users\Frai\.Rider2017.3\system\resharper-host\local\Transient\ReSharperHost\v11\SolutionCaches\_HowLong.1567632635.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Frai\GitHub\HowLongCQRS" t="IncludeFlat">
       <e p="HowLong" t="IncludeRecursive">
         <e p="App_Data" t="Include" />
         <e p="App_Start" t="Include">
@@ -21,7 +21,7 @@
         <e p="HowLong.csproj" t="IncludeRecursive" />
         <e p="Models" t="Include">
           <e p="Read" t="Include">
-            <e p="Persistance" t="Include">
+            <e p="Repository" t="Include">
               <e p="ISerieReadRepository.cs" t="Include" />
               <e p="SerieRepository.cs" t="Include" />
             </e>
@@ -30,14 +30,14 @@
           </e>
           <e p="Write" t="Include">
             <e p="CommandHandlers" t="Include">
-              <e p="SerieCommandHandler.cs" t="Include" />
+              <e p="SerieWriteCommandHandler.cs" t="Include" />
             </e>
             <e p="Commands" t="Include">
               <e p="CadastrarSerie.cs" t="Include" />
               <e p="Votar.cs" t="Include" />
             </e>
-            <e p="Persistance" t="Include">
-              <e p="ISerieWriteRepository.cs" t="Include" />
+            <e p="Repository" t="Include">
+              <e p="ISerieRepository.cs" t="Include" />
               <e p="SerieRepository.cs" t="Include" />
             </e>
             <e p="SerieWrite.cs" t="Include" />

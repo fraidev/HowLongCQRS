@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using HowLong.Helper;
 
-namespace HowLong.Models.Read.Persistance
+namespace HowLong.Models.Read.Repository
 {
     public class SerieReadRepository : ISerieReadRepository
     {

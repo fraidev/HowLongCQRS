@@ -2,11 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using HowLong.Helper;
+using HowLong.Models.Read;
 using HowLong.Models.Write.Commands;
 
-namespace HowLong.Models.Write.Persistance
+namespace HowLong.Models.Write.Repository
 {
-    public class SerieWriteRepository : ISerieWriteRepository
+    public class SerieRepository : ISerieRepository
     {
         // GET PARA O DELETE FUNCIONAR
         public SerieWrite Get(int id)
@@ -17,13 +18,14 @@ namespace HowLong.Models.Write.Persistance
                     .SingleOrDefault();
         }
 
-        public SerieWrite AddSerie(SerieWrite serie)
+        public SerieWrite AddSerie(SerieWrite serie, SerieRead read )
         {
             using (var session = NHibernateHelper.OpenSession())
             {
                 using (var transaction = session.BeginTransaction())
                 {
                     session.Save(serie);
+                    session.Save(read);
                     transaction.Commit();
                 }
                 return serie;

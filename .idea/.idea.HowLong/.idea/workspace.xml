@@ -1,21 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/HowLong/Models/Write/CommandHandlers/SerieCommandHandler.cs" line="50" />
-    <bookmark url="file://$PROJECT_DIR$/HowLong/Models/Write/CommandHandlers/SerieCommandHandler.cs" line="46" />
+    <bookmark url="file://$PROJECT_DIR$/HowLong/Models/Write/CommandHandlers/SerieWriteCommandHandler.cs" line="74" />
+    <bookmark url="file://$PROJECT_DIR$/HowLong/Models/Write/CommandHandlers/SerieWriteCommandHandler.cs" line="70" />
     <bookmark url="file://$PROJECT_DIR$/HowLong/Models/Write/Commands/Votar.cs" line="9" />
-    <bookmark url="file://$PROJECT_DIR$/HowLong/Models/Write/CommandHandlers/SerieCommandHandler.cs" line="47" />
+    <bookmark url="file://$PROJECT_DIR$/HowLong/Models/Write/CommandHandlers/SerieWriteCommandHandler.cs" line="71" />
     <bookmark url="file://$PROJECT_DIR$/HowLong/Models/Write/SerieWriteMap.cs" line="22" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a187bf44-1e09-4c18-abe2-8f3139f6e1a4" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.HowLong/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.HowLong/.idea/contentModel.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.HowLong/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.HowLong/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/config/applicationhost.config" afterPath="$PROJECT_DIR$/.idea/config/applicationhost.config" />
       <change beforePath="$PROJECT_DIR$/HowLong/Controllers/SeriesController.cs" afterPath="$PROJECT_DIR$/HowLong/Controllers/SeriesController.cs" />
-      <change beforePath="$PROJECT_DIR$/HowLong/Models/Write/CommandHandlers/SerieCommandHandler.cs" afterPath="$PROJECT_DIR$/HowLong/Models/Write/CommandHandlers/SerieCommandHandler.cs" />
+      <change beforePath="$PROJECT_DIR$/HowLong/HowLong.csproj" afterPath="$PROJECT_DIR$/HowLong/HowLong.csproj" />
+      <change beforePath="$PROJECT_DIR$/HowLong/Models/Read/Persistance/ISerieReadRepository.cs" afterPath="$PROJECT_DIR$/HowLong/Models/Read/Repository/ISerieReadRepository.cs" />
+      <change beforePath="$PROJECT_DIR$/HowLong/Models/Read/Persistance/SerieRepository.cs" afterPath="$PROJECT_DIR$/HowLong/Models/Read/Repository/SerieRepository.cs" />
+      <change beforePath="$PROJECT_DIR$/HowLong/Models/Read/SerieRead.cs" afterPath="$PROJECT_DIR$/HowLong/Models/Read/SerieRead.cs" />
+      <change beforePath="$PROJECT_DIR$/HowLong/Models/Read/SerieReadMap.cs" afterPath="$PROJECT_DIR$/HowLong/Models/Read/SerieReadMap.cs" />
+      <change beforePath="$PROJECT_DIR$/HowLong/Models/Write/CommandHandlers/SerieCommandHandler.cs" afterPath="$PROJECT_DIR$/HowLong/Models/Write/CommandHandlers/SerieWriteCommandHandler.cs" />
+      <change beforePath="$PROJECT_DIR$/HowLong/Models/Write/Commands/CadastrarSerie.cs" afterPath="$PROJECT_DIR$/HowLong/Models/Write/Commands/CadastrarSerie.cs" />
       <change beforePath="$PROJECT_DIR$/HowLong/Models/Write/Commands/Votar.cs" afterPath="$PROJECT_DIR$/HowLong/Models/Write/Commands/Votar.cs" />
-      <change beforePath="$PROJECT_DIR$/HowLong/Models/Write/SerieWrite.cs" afterPath="$PROJECT_DIR$/HowLong/Models/Write/SerieWrite.cs" />
+      <change beforePath="$PROJECT_DIR$/HowLong/Models/Write/Persistance/ISerieWriteRepository.cs" afterPath="$PROJECT_DIR$/HowLong/Models/Write/Repository/ISerieRepository.cs" />
+      <change beforePath="$PROJECT_DIR$/HowLong/Models/Write/Persistance/SerieRepository.cs" afterPath="$PROJECT_DIR$/HowLong/Models/Write/Repository/SerieRepository.cs" />
       <change beforePath="$PROJECT_DIR$/HowLong/Models/Write/SerieWriteMap.cs" afterPath="$PROJECT_DIR$/HowLong/Models/Write/SerieWriteMap.cs" />
-      <change beforePath="$PROJECT_DIR$/HowLong/Models/Write/Voto.cs" afterPath="$PROJECT_DIR$/HowLong/Models/Write/Voto.cs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,38 +36,106 @@
     <favorites_list name="HowLong" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Votar.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HowLong/Models/Write/Commands/Votar.cs">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="SerieRepository.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HowLong/Models/Write/Repository/SerieRepository.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="11" column="47" lean-forward="false" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+            <state relative-caret-position="105">
+              <caret line="12" column="25" lean-forward="false" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="25" />
               <folding>
-                <marker date="1518801883710" expanded="false" signature="6:84" ph="..." />
-                <marker date="1518801883710" expanded="true" signature="125:334" ph="{...}" />
-                <marker date="1518801883710" expanded="true" signature="150:332" ph="{...}" />
+                <marker date="1518964579494" expanded="false" signature="6:152" ph="..." />
+                <marker date="1518964579494" expanded="true" signature="195:2329" ph="{...}" />
+                <marker date="1518964579494" expanded="true" signature="249:2327" ph="{...}" />
+                <marker date="1518964579494" expanded="true" signature="332:556" ph="{...}" />
+                <marker date="1518964579494" expanded="true" signature="627:998" ph="{...}" />
+                <marker date="1518964579494" expanded="true" signature="702:988" ph="{...}" />
+                <marker date="1518964579494" expanded="true" signature="785:944" ph="{...}" />
+                <marker date="1518964579494" expanded="true" signature="1046:1375" ph="{...}" />
+                <marker date="1518964579494" expanded="true" signature="1121:1365" ph="{...}" />
+                <marker date="1518964579494" expanded="true" signature="1204:1322" ph="{...}" />
+                <marker date="1518964579494" expanded="true" signature="1412:1750" ph="{...}" />
+                <marker date="1518964579494" expanded="true" signature="1521:1739" ph="{...}" />
+                <marker date="1518964579494" expanded="true" signature="1604:1725" ph="{...}" />
+                <marker date="1518964579494" expanded="true" signature="1796:2321" ph="{...}" />
+                <marker date="1518964579494" expanded="true" signature="1871:2311" ph="{...}" />
+                <marker date="1518964579494" expanded="true" signature="1954:2268" ph="{...}" />
+                <marker date="1518964579494" expanded="true" signature="2045:2135" ph="{...}" />
+                <marker date="1518964579494" expanded="true" signature="2173:2249" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SerieCommandHandler.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/HowLong/Models/Write/CommandHandlers/SerieCommandHandler.cs">
+      <file leaf-file-name="SeriesController.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HowLong/Controllers/SeriesController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="46" column="38" lean-forward="false" selection-start-line="46" selection-start-column="38" selection-end-line="46" selection-end-column="38" />
+            <state relative-caret-position="329">
+              <caret line="66" column="19" lean-forward="false" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="19" />
               <folding>
-                <marker date="1518801495005" expanded="false" signature="6:161" ph="..." />
-                <marker date="1518801495005" expanded="true" signature="209:1617" ph="{...}" />
-                <marker date="1518801495005" expanded="true" signature="248:1615" ph="{...}" />
-                <marker date="1518801495005" expanded="true" signature="404:482" ph="{...}" />
-                <marker date="1518801495005" expanded="true" signature="538:992" ph="{...}" />
-                <marker date="1518801495005" expanded="true" signature="596:689" ph="{...}" />
-                <marker date="1518801495005" expanded="true" signature="759:878" ph="{...}" />
-                <marker date="1518801495005" expanded="true" signature="1063:1517" ph="{...}" />
-                <marker date="1518801495005" expanded="true" signature="1105:1198" ph="{...}" />
-                <marker date="1518801495005" expanded="true" signature="1244:1398" ph="{...}" />
-                <marker date="1518801495005" expanded="true" signature="1589:1609" ph="{...}" />
+                <marker date="1518964041489" expanded="false" signature="6:413" ph="..." />
+                <marker date="1518964041489" expanded="true" signature="444:2239" ph="{...}" />
+                <marker date="1518964041489" expanded="true" signature="528:2237" ph="{...}" />
+                <marker date="1518964041489" expanded="true" signature="627:841" ph="{...}" />
+                <marker date="1518964041489" expanded="true" signature="851:1339" ph="Escrita" />
+                <marker date="1518964041489" expanded="true" signature="1003:1103" ph="{...}" />
+                <marker date="1518964041489" expanded="true" signature="1223:1319" ph="{...}" />
+                <marker date="1518964041489" expanded="true" signature="1349:2230" ph="Leitura" />
+                <marker date="1518964041489" expanded="true" signature="1485:1633" ph="{...}" />
+                <marker date="1518964041489" expanded="true" signature="1777:1923" ph="{...}" />
+                <marker date="1518964041489" expanded="true" signature="2051:2210" ph="{...}" />
+                <marker date="1518964041489" expanded="true" signature="2074:2173" ph="/* TODO obter os top n do modelo de leitura. ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ISerieRepository.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HowLong/Models/Write/Repository/ISerieRepository.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="34" lean-forward="false" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+              <folding>
+                <marker date="1518964642487" expanded="true" signature="6:60" ph="..." />
+                <marker date="1518964642487" expanded="true" signature="103:354" ph="{...}" />
+                <marker date="1518964642487" expanded="true" signature="143:352" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SerieWriteCommandHandler.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HowLong/Models/Write/CommandHandlers/SerieWriteCommandHandler.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="708">
+              <caret line="73" column="14" lean-forward="false" selection-start-line="73" selection-start-column="14" selection-end-line="73" selection-end-column="14" />
+              <folding>
+                <marker date="1518990761456" expanded="false" signature="6:209" ph="..." />
+                <marker date="1518990761456" expanded="true" signature="257:2084" ph="{...}" />
+                <marker date="1518990761456" expanded="true" signature="296:2082" ph="{...}" />
+                <marker date="1518990761456" expanded="true" signature="432:500" ph="{...}" />
+                <marker date="1518990761456" expanded="true" signature="518:696" ph="/* public List&lt;Voto&gt; GetVotos() ... */" />
+                <marker date="1518990761456" expanded="true" signature="762:1536" ph="{...}" />
+                <marker date="1518990761456" expanded="true" signature="820:913" ph="{...}" />
+                <marker date="1518990761456" expanded="true" signature="952:1015" ph="/* dynamic obj = GetVotos(); ... */" />
+                <marker date="1518990761456" expanded="true" signature="1085:1206" ph="{...}" />
+                <marker date="1518990761456" expanded="true" signature="1275:1414" ph="{...}" />
+                <marker date="1518990761456" expanded="true" signature="1607:2058" ph="{...}" />
+                <marker date="1518990761456" expanded="true" signature="1649:1742" ph="{...}" />
+                <marker date="1518990761456" expanded="true" signature="1788:1944" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Votar.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HowLong/Models/Write/Commands/Votar.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+              <folding>
+                <marker date="1518921467671" expanded="false" signature="6:84" ph="..." />
+                <marker date="1518921467671" expanded="true" signature="125:298" ph="{...}" />
+                <marker date="1518921467671" expanded="true" signature="150:296" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -70,28 +146,31 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>cada</find>
+      <find>SerieRead</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/HowLong/Controllers/SeriesController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/HowLong/Helper/NHibernateHelper.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/HowLong/Models/Read/SerieRead.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/HowLong/Models/Read/SerieReadMap.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/HowLong/Models/Read/Persistance/ISerieReadRepository.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/HowLong/Models/Read/Persistance/SerieRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/HowLong/Models/Write/SerieWrite.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/HowLong/Models/Write/SerieWriteMap.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/HowLong/Models/Write/Voto.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/HowLong/Models/Write/Commands/Votar.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/HowLong/Models/Write/Commands/CadastrarSerie.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/HowLong/Models/Write/Persistance/SerieRepository.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/HowLong/Models/Write/Persistance/ISerieWriteRepository.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/HowLong/Models/Write/CommandHandlers/SerieCommandHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/HowLong/Models/Write/Repository/SerieRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/HowLong/Models/Write/Repository/ISerieRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/HowLong/Models/Write/CommandHandlers/SerieWriteCommandHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/HowLong/App_Start/SwaggerConfig.cs" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/HowLong/App_Start/WebApiConfig.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4988F9F2-1511-47E9-90BB-7BA7580DD627/9a/021503a8/ISession.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/HowLong/Properties/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/HowLong/Controllers/SeriesController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/HowLong/Helper/NHibernateHelper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/HowLong/Models/Read/SerieRead.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/HowLong/Models/Read/SerieReadMap.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/HowLong/Models/Read/Repository/ISerieReadRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/HowLong/Models/Read/Repository/SerieRepository.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -99,14 +178,26 @@
         <option value="$PROJECT_DIR$/HowLong/Models/Write/VotoMap.cs" />
         <option value="$PROJECT_DIR$/HowLong/Models/Write/Persistance/ISerieWriteRepository.cs" />
         <option value="$PROJECT_DIR$/HowLong/Models/Write/Persistance/SerieRepository.cs" />
-        <option value="$PROJECT_DIR$/HowLong/Models/Write/Commands/CadastrarSerie.cs" />
         <option value="$PROJECT_DIR$/HowLong/Helper/NHibernateHelper.cs" />
         <option value="$PROJECT_DIR$/HowLong/Models/Write/SerieWrite.cs" />
-        <option value="$PROJECT_DIR$/HowLong/Models/Write/CommandHandlers/SerieCommandHandler.cs" />
-        <option value="$PROJECT_DIR$/HowLong/Models/Write/Voto.cs" />
+        <option value="$PROJECT_DIR$/HowLong/Models/Write/Commands/CadastrarSerie.cs" />
         <option value="$PROJECT_DIR$/HowLong/Models/Write/SerieWriteMap.cs" />
+        <option value="$PROJECT_DIR$/HowLong/Models/Write/Voto.cs" />
         <option value="$PROJECT_DIR$/HowLong/Models/Write/Commands/Votar.cs" />
+        <option value="$PROJECT_DIR$/HowLong/Models/Read/SerieRead.cs" />
+        <option value="$PROJECT_DIR$/HowLong/Models/Read/SerieReadMap.cs" />
+        <option value="$PROJECT_DIR$/HowLong/Models/Write/Repository/ISerieWriteRepository.cs" />
+        <option value="$PROJECT_DIR$/HowLong/Models/Read/Commander/ConsultarSerie.cs" />
+        <option value="$PROJECT_DIR$/HowLong/Models/Read/Commands/ConsultarSerie.cs" />
+        <option value="$PROJECT_DIR$/HowLong/Models/Read/CommandsHandlers/SerieCommandHandler.cs" />
+        <option value="$PROJECT_DIR$/HowLong/Models/Write/CommandHandlers/SerieCommandHandler.cs" />
+        <option value="$PROJECT_DIR$/HowLong/Models/Read/CommandsHandlers/SerieReadCommandHandler.cs" />
+        <option value="$PROJECT_DIR$/HowLong/Models/Read/Repository/SerieRepository.cs" />
+        <option value="$PROJECT_DIR$/HowLong/Models/Read/Repository/ISerieReadRepository.cs" />
+        <option value="$PROJECT_DIR$/HowLong/Models/Write/Repository/ISerieRepository.cs" />
+        <option value="$PROJECT_DIR$/HowLong/Models/Write/Repository/SerieRepository.cs" />
         <option value="$PROJECT_DIR$/HowLong/Controllers/SeriesController.cs" />
+        <option value="$PROJECT_DIR$/HowLong/Models/Write/CommandHandlers/SerieWriteCommandHandler.cs" />
       </list>
     </option>
   </component>
@@ -138,6 +229,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -155,12 +247,6 @@
               <item name="HowLong (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="HowLong" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Controllers" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="HowLong (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="HowLong" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Helper" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
@@ -197,7 +283,7 @@
               <item name="HowLong" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Models" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Write" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Persistance" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Repository" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
           </expand>
           <select />
@@ -205,7 +291,6 @@
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -257,11 +342,12 @@
       <option name="presentableId" value="Default" />
       <updated>1518776908865</updated>
       <workItem from="1518776918109" duration="22012000" />
+      <workItem from="1518916282781" duration="19753000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22012000" />
+    <option name="totallyTimeSpent" value="41765000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -273,31 +359,56 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24722663" sideWeight="0.5058565" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27099842" sideWeight="0.4941435" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16330859" sideWeight="0.4941435" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.49445325" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13177083" sideWeight="0.49445325" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296355" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16330859" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24963397" sideWeight="0.50554675" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24947916" sideWeight="0.50554675" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24722663" sideWeight="0.5058565" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16330859" sideWeight="0.4941435" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13177083" sideWeight="0.49445325" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16330859" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24947916" sideWeight="0.50554675" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -307,68 +418,82 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/HowLong/Models/Read/Persistance/ISerieReadRepository.cs">
+    <entry file="file://$PROJECT_DIR$/HowLong/Models/Write/Commands/Votar.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="165">
+          <caret line="11" column="42" lean-forward="true" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
           <folding>
-            <marker date="1518709141105" expanded="true" signature="76:213" ph="{...}" />
-            <marker date="1518709141105" expanded="true" signature="120:211" ph="{...}" />
+            <marker date="1518921467671" expanded="false" signature="6:84" ph="..." />
+            <marker date="1518921467671" expanded="true" signature="125:298" ph="{...}" />
+            <marker date="1518921467671" expanded="true" signature="150:296" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HowLong/Models/Read/Persistance/SerieRepository.cs">
+    <entry file="file://$PROJECT_DIR$/HowLong/Models/Write/CommandHandlers/SerieWriteCommandHandler.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="525">
+          <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
           <folding>
-            <marker date="1518709879873" expanded="false" signature="6:88" ph="..." />
-            <marker date="1518709879873" expanded="true" signature="131:658" ph="{...}" />
-            <marker date="1518709879873" expanded="true" signature="193:656" ph="{...}" />
-            <marker date="1518709879873" expanded="true" signature="237:448" ph="{...}" />
-            <marker date="1518709879873" expanded="true" signature="496:641" ph="{...}" />
+            <marker date="1518990761456" expanded="false" signature="6:209" ph="..." />
+            <marker date="1518990761456" expanded="true" signature="257:2084" ph="{...}" />
+            <marker date="1518990761456" expanded="true" signature="296:2082" ph="{...}" />
+            <marker date="1518990761456" expanded="true" signature="432:500" ph="{...}" />
+            <marker date="1518990761456" expanded="true" signature="518:696" ph="/* public List&lt;Voto&gt; GetVotos() ... */" />
+            <marker date="1518990761456" expanded="true" signature="762:1536" ph="{...}" />
+            <marker date="1518990761456" expanded="true" signature="820:913" ph="{...}" />
+            <marker date="1518990761456" expanded="true" signature="952:1015" ph="/* dynamic obj = GetVotos(); ... */" />
+            <marker date="1518990761456" expanded="true" signature="1085:1206" ph="{...}" />
+            <marker date="1518990761456" expanded="true" signature="1275:1414" ph="{...}" />
+            <marker date="1518990761456" expanded="true" signature="1607:2058" ph="{...}" />
+            <marker date="1518990761456" expanded="true" signature="1649:1742" ph="{...}" />
+            <marker date="1518990761456" expanded="true" signature="1788:1944" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HowLong/Models/Read/SerieReadMap.cs">
+    <entry file="file://$PROJECT_DIR$/HowLong/Models/Write/VotoMap.cs" />
+    <entry file="file://$PROJECT_DIR$/HowLong/Properties/AssemblyInfo.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HowLong/Models/Read/SerieRead.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="225">
+          <caret line="17" column="9" lean-forward="false" selection-start-line="17" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
           <folding>
-            <marker date="1518707832114" expanded="true" signature="29:193" ph="{...}" />
-            <marker date="1518707832114" expanded="true" signature="58:190" ph="{...}" />
+            <marker date="1518916179322" expanded="false" signature="6:101" ph="..." />
+            <marker date="1518916179322" expanded="true" signature="103:301" ph="/* As Informações Gerais sobre um assembly são controladas por meio do ... */" />
+            <marker date="1518916179322" expanded="true" signature="602:828" ph="/* Configurar o ComVisible como false torna os tipos desse assembly invisíveis ... */" />
+            <marker date="1518916179322" expanded="true" signature="1003:1323" ph="/* As informações de versão de um assembly consistem nos quatro valores a seguir: ... */" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HowLong/App_Start/SwaggerConfig.cs">
+    <entry file="file://$PROJECT_DIR$/HowLong/Models/Write/SerieWriteMap.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-30">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="330">
+          <caret line="22" column="37" lean-forward="false" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="37" />
+          <folding>
+            <marker date="1518921230481" expanded="true" signature="63:610" ph="{...}" />
+            <marker date="1518921230481" expanded="true" signature="119:349" ph="{...}" />
+            <marker date="1518921230481" expanded="true" signature="156:343" ph="{...}" />
+            <marker date="1518921230481" expanded="true" signature="396:608" ph="{...}" />
+            <marker date="1518921230481" expanded="true" signature="427:602" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HowLong/Models/Write/VotoMap.cs">
+    <entry file="file://$PROJECT_DIR$/HowLong/Models/Write/Voto.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="20" selection-end-column="5" />
-          <folding />
+        <state relative-caret-position="165">
+          <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+          <folding>
+            <marker date="1518921460187" expanded="false" signature="6:121" ph="..." />
+            <marker date="1518921460187" expanded="true" signature="153:403" ph="{...}" />
+            <marker date="1518921460187" expanded="true" signature="177:401" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -377,28 +502,58 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1518689620053" expanded="false" signature="6:89" ph="..." />
-            <marker date="1518689620053" expanded="true" signature="108:627" ph="{...}" />
-            <marker date="1518689620053" expanded="true" signature="147:625" ph="{...}" />
-            <marker date="1518689620053" expanded="true" signature="215:619" ph="{...}" />
-            <marker date="1518689620053" expanded="true" signature="238:314" ph="/* Serviços e configuração da API da Web ... */" />
+            <marker date="1518916179310" expanded="false" signature="6:89" ph="..." />
+            <marker date="1518916179310" expanded="true" signature="108:627" ph="{...}" />
+            <marker date="1518916179310" expanded="true" signature="147:625" ph="{...}" />
+            <marker date="1518916179310" expanded="true" signature="215:619" ph="{...}" />
+            <marker date="1518916179310" expanded="true" signature="238:314" ph="/* Serviços e configuração da API da Web ... */" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HowLong/Helper/NHibernateHelper.cs">
+    <entry file="file://$PROJECT_DIR$/HowLong/App_Start/SwaggerConfig.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="17" column="83" lean-forward="false" selection-start-line="17" selection-start-column="83" selection-end-line="17" selection-end-column="83" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HowLong/Models/Read/Commands/ConsultarSerie.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HowLong/Models/Read/CommandsHandlers/SerieReadCommandHandler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="24" column="12" lean-forward="false" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HowLong/Models/Read/SerieReadMap.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
           <folding>
-            <marker date="1518798288996" expanded="false" signature="6:258" ph="..." />
-            <marker date="1518798288996" expanded="true" signature="284:1759" ph="{...}" />
-            <marker date="1518798288996" expanded="true" signature="320:1757" ph="{...}" />
-            <marker date="1518798288996" expanded="true" signature="557:787" ph="{...}" />
-            <marker date="1518798288996" expanded="true" signature="583:777" ph="{...}" />
-            <marker date="1518798288996" expanded="true" signature="642:722" ph="{...}" />
-            <marker date="1518798288996" expanded="true" signature="839:1635" ph="{...}" />
-            <marker date="1518798288996" expanded="true" signature="1681:1751" ph="{...}" />
+            <marker date="1518923529752" expanded="true" signature="62:368" ph="{...}" />
+            <marker date="1518923529752" expanded="true" signature="116:366" ph="{...}" />
+            <marker date="1518923529752" expanded="true" signature="152:360" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HowLong/Models/Read/SerieRead.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="5" lean-forward="false" selection-start-line="3" selection-start-column="5" selection-end-line="7" selection-end-column="42" />
+          <folding>
+            <marker date="1518923533118" expanded="true" signature="29:239" ph="{...}" />
+            <marker date="1518923533118" expanded="true" signature="58:236" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -408,9 +563,52 @@
         <state relative-caret-position="105">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
-            <marker date="1518801338081" expanded="false" signature="6:47" ph="..." />
-            <marker date="1518801338081" expanded="true" signature="79:247" ph="{...}" />
-            <marker date="1518801338081" expanded="true" signature="109:244" ph="{...}" />
+            <marker date="1518916179320" expanded="false" signature="6:47" ph="..." />
+            <marker date="1518916179320" expanded="true" signature="79:247" ph="{...}" />
+            <marker date="1518916179320" expanded="true" signature="109:244" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HowLong/Models/Read/Repository/SerieRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="18" column="32" lean-forward="false" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+          <folding>
+            <marker date="1518929186909" expanded="false" signature="6:88" ph="..." />
+            <marker date="1518929186909" expanded="true" signature="130:657" ph="{...}" />
+            <marker date="1518929186909" expanded="true" signature="192:655" ph="{...}" />
+            <marker date="1518929186909" expanded="true" signature="236:447" ph="{...}" />
+            <marker date="1518929186909" expanded="true" signature="495:640" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HowLong/Models/Read/Repository/ISerieReadRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="31" lean-forward="false" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+          <folding>
+            <marker date="1518929199427" expanded="false" signature="6:61" ph="..." />
+            <marker date="1518929199427" expanded="true" signature="103:240" ph="{...}" />
+            <marker date="1518929199427" expanded="true" signature="147:238" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HowLong/Helper/NHibernateHelper.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="44" column="31" lean-forward="false" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
+          <folding>
+            <marker date="1518916179313" expanded="false" signature="6:258" ph="..." />
+            <marker date="1518916179313" expanded="true" signature="284:1759" ph="{...}" />
+            <marker date="1518916179313" expanded="true" signature="320:1757" ph="{...}" />
+            <marker date="1518916179313" expanded="true" signature="557:787" ph="{...}" />
+            <marker date="1518916179313" expanded="true" signature="583:777" ph="{...}" />
+            <marker date="1518916179313" expanded="true" signature="642:722" ph="{...}" />
+            <marker date="1518916179313" expanded="true" signature="839:1635" ph="{...}" />
+            <marker date="1518916179313" expanded="true" signature="1681:1751" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -418,125 +616,113 @@
     <entry file="file://$PROJECT_DIR$/HowLong/Models/Write/Commands/CadastrarSerie.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="9" column="15" lean-forward="false" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+          <caret line="9" column="10" lean-forward="false" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
           <folding>
-            <marker date="1518798201756" expanded="false" signature="6:84" ph="..." />
-            <marker date="1518798201756" expanded="true" signature="125:296" ph="{...}" />
-            <marker date="1518798201756" expanded="true" signature="159:294" ph="{...}" />
+            <marker date="1518920618816" expanded="false" signature="6:84" ph="..." />
+            <marker date="1518920618816" expanded="true" signature="125:298" ph="{...}" />
+            <marker date="1518920618816" expanded="true" signature="159:296" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HowLong/Models/Write/Persistance/SerieRepository.cs">
+    <entry file="file://$PROJECT_DIR$/HowLong/Models/Write/Repository/SerieRepository.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="26" column="41" lean-forward="false" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+        <state relative-caret-position="105">
+          <caret line="12" column="25" lean-forward="false" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="25" />
           <folding>
-            <marker date="1518789348275" expanded="false" signature="6:125" ph="..." />
-            <marker date="1518789348275" expanded="true" signature="169:2256" ph="{...}" />
-            <marker date="1518789348275" expanded="true" signature="233:2254" ph="{...}" />
-            <marker date="1518789348275" expanded="true" signature="316:540" ph="{...}" />
-            <marker date="1518789348275" expanded="true" signature="594:925" ph="{...}" />
-            <marker date="1518789348275" expanded="true" signature="669:915" ph="{...}" />
-            <marker date="1518789348275" expanded="true" signature="752:871" ph="{...}" />
-            <marker date="1518789348275" expanded="true" signature="973:1302" ph="{...}" />
-            <marker date="1518789348275" expanded="true" signature="1048:1292" ph="{...}" />
-            <marker date="1518789348275" expanded="true" signature="1131:1249" ph="{...}" />
-            <marker date="1518789348275" expanded="true" signature="1339:1677" ph="{...}" />
-            <marker date="1518789348275" expanded="true" signature="1448:1666" ph="{...}" />
-            <marker date="1518789348275" expanded="true" signature="1531:1652" ph="{...}" />
-            <marker date="1518789348275" expanded="true" signature="1723:2248" ph="{...}" />
-            <marker date="1518789348275" expanded="true" signature="1798:2238" ph="{...}" />
-            <marker date="1518789348275" expanded="true" signature="1881:2195" ph="{...}" />
-            <marker date="1518789348275" expanded="true" signature="1972:2062" ph="{...}" />
-            <marker date="1518789348275" expanded="true" signature="2100:2176" ph="{...}" />
+            <marker date="1518964579494" expanded="false" signature="6:152" ph="..." />
+            <marker date="1518964579494" expanded="true" signature="195:2329" ph="{...}" />
+            <marker date="1518964579494" expanded="true" signature="249:2327" ph="{...}" />
+            <marker date="1518964579494" expanded="true" signature="332:556" ph="{...}" />
+            <marker date="1518964579494" expanded="true" signature="627:998" ph="{...}" />
+            <marker date="1518964579494" expanded="true" signature="702:988" ph="{...}" />
+            <marker date="1518964579494" expanded="true" signature="785:944" ph="{...}" />
+            <marker date="1518964579494" expanded="true" signature="1046:1375" ph="{...}" />
+            <marker date="1518964579494" expanded="true" signature="1121:1365" ph="{...}" />
+            <marker date="1518964579494" expanded="true" signature="1204:1322" ph="{...}" />
+            <marker date="1518964579494" expanded="true" signature="1412:1750" ph="{...}" />
+            <marker date="1518964579494" expanded="true" signature="1521:1739" ph="{...}" />
+            <marker date="1518964579494" expanded="true" signature="1604:1725" ph="{...}" />
+            <marker date="1518964579494" expanded="true" signature="1796:2321" ph="{...}" />
+            <marker date="1518964579494" expanded="true" signature="1871:2311" ph="{...}" />
+            <marker date="1518964579494" expanded="true" signature="1954:2268" ph="{...}" />
+            <marker date="1518964579494" expanded="true" signature="2045:2135" ph="{...}" />
+            <marker date="1518964579494" expanded="true" signature="2173:2249" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HowLong/Models/Write/Persistance/ISerieWriteRepository.cs">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4988F9F2-1511-47E9-90BB-7BA7580DD627/9a/021503a8/ISession.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding>
-            <marker date="1518789295314" expanded="true" signature="77:316" ph="{...}" />
-            <marker date="1518789295314" expanded="true" signature="122:314" ph="{...}" />
-          </folding>
+        <state relative-caret-position="434">
+          <caret line="1452" column="17" lean-forward="true" selection-start-line="1452" selection-start-column="17" selection-end-line="1452" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HowLong/Models/Write/SerieWriteMap.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="29" lean-forward="false" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
-          <folding>
-            <marker date="1518801855682" expanded="true" signature="63:622" ph="{...}" />
-            <marker date="1518801855682" expanded="true" signature="119:349" ph="{...}" />
-            <marker date="1518801855682" expanded="true" signature="156:343" ph="{...}" />
-            <marker date="1518801855682" expanded="true" signature="396:620" ph="{...}" />
-            <marker date="1518801855682" expanded="true" signature="427:614" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HowLong/Models/Write/Voto.cs">
+    <entry file="file://$PROJECT_DIR$/HowLong/Models/Write/Repository/ISerieRepository.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+          <caret line="8" column="34" lean-forward="false" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
           <folding>
-            <marker date="1518801806585" expanded="false" signature="6:121" ph="..." />
-            <marker date="1518801806585" expanded="true" signature="153:403" ph="{...}" />
-            <marker date="1518801806585" expanded="true" signature="177:401" ph="{...}" />
+            <marker date="1518964642487" expanded="true" signature="6:60" ph="..." />
+            <marker date="1518964642487" expanded="true" signature="103:354" ph="{...}" />
+            <marker date="1518964642487" expanded="true" signature="143:352" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HowLong/Controllers/SeriesController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="43" column="40" lean-forward="false" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="40" />
+        <state relative-caret-position="329">
+          <caret line="66" column="19" lean-forward="false" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="19" />
           <folding>
-            <marker date="1518801950302" expanded="false" signature="6:365" ph="..." />
-            <marker date="1518801950302" expanded="true" signature="396:1508" ph="{...}" />
-            <marker date="1518801950302" expanded="true" signature="480:1506" ph="{...}" />
-            <marker date="1518801950302" expanded="true" signature="579:738" ph="{...}" />
-            <marker date="1518801950302" expanded="true" signature="748:1236" ph="Escrita" />
-            <marker date="1518801950302" expanded="true" signature="900:1000" ph="{...}" />
-            <marker date="1518801950302" expanded="true" signature="1120:1216" ph="{...}" />
-            <marker date="1518801950302" expanded="true" signature="1246:1499" ph="Leitura" />
-            <marker date="1518801950302" expanded="true" signature="1376:1479" ph="{...}" />
+            <marker date="1518964041489" expanded="false" signature="6:413" ph="..." />
+            <marker date="1518964041489" expanded="true" signature="444:2239" ph="{...}" />
+            <marker date="1518964041489" expanded="true" signature="528:2237" ph="{...}" />
+            <marker date="1518964041489" expanded="true" signature="627:841" ph="{...}" />
+            <marker date="1518964041489" expanded="true" signature="851:1339" ph="Escrita" />
+            <marker date="1518964041489" expanded="true" signature="1003:1103" ph="{...}" />
+            <marker date="1518964041489" expanded="true" signature="1223:1319" ph="{...}" />
+            <marker date="1518964041489" expanded="true" signature="1349:2230" ph="Leitura" />
+            <marker date="1518964041489" expanded="true" signature="1485:1633" ph="{...}" />
+            <marker date="1518964041489" expanded="true" signature="1777:1923" ph="{...}" />
+            <marker date="1518964041489" expanded="true" signature="2051:2210" ph="{...}" />
+            <marker date="1518964041489" expanded="true" signature="2074:2173" ph="/* TODO obter os top n do modelo de leitura. ... */" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HowLong/Models/Write/Commands/Votar.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" column="47" lean-forward="false" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+        <state relative-caret-position="165">
+          <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
           <folding>
-            <marker date="1518801883710" expanded="false" signature="6:84" ph="..." />
-            <marker date="1518801883710" expanded="true" signature="125:334" ph="{...}" />
-            <marker date="1518801883710" expanded="true" signature="150:332" ph="{...}" />
+            <marker date="1518921467671" expanded="false" signature="6:84" ph="..." />
+            <marker date="1518921467671" expanded="true" signature="125:298" ph="{...}" />
+            <marker date="1518921467671" expanded="true" signature="150:296" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HowLong/Models/Write/CommandHandlers/SerieCommandHandler.cs">
+    <entry file="file://$PROJECT_DIR$/HowLong/Models/Write/CommandHandlers/SerieWriteCommandHandler.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="46" column="38" lean-forward="false" selection-start-line="46" selection-start-column="38" selection-end-line="46" selection-end-column="38" />
+        <state relative-caret-position="708">
+          <caret line="73" column="14" lean-forward="false" selection-start-line="73" selection-start-column="14" selection-end-line="73" selection-end-column="14" />
           <folding>
-            <marker date="1518801495005" expanded="false" signature="6:161" ph="..." />
-            <marker date="1518801495005" expanded="true" signature="209:1617" ph="{...}" />
-            <marker date="1518801495005" expanded="true" signature="248:1615" ph="{...}" />
-            <marker date="1518801495005" expanded="true" signature="404:482" ph="{...}" />
-            <marker date="1518801495005" expanded="true" signature="538:992" ph="{...}" />
-            <marker date="1518801495005" expanded="true" signature="596:689" ph="{...}" />
-            <marker date="1518801495005" expanded="true" signature="759:878" ph="{...}" />
-            <marker date="1518801495005" expanded="true" signature="1063:1517" ph="{...}" />
-            <marker date="1518801495005" expanded="true" signature="1105:1198" ph="{...}" />
-            <marker date="1518801495005" expanded="true" signature="1244:1398" ph="{...}" />
-            <marker date="1518801495005" expanded="true" signature="1589:1609" ph="{...}" />
+            <marker date="1518990761456" expanded="false" signature="6:209" ph="..." />
+            <marker date="1518990761456" expanded="true" signature="257:2084" ph="{...}" />
+            <marker date="1518990761456" expanded="true" signature="296:2082" ph="{...}" />
+            <marker date="1518990761456" expanded="true" signature="432:500" ph="{...}" />
+            <marker date="1518990761456" expanded="true" signature="518:696" ph="/* public List&lt;Voto&gt; GetVotos() ... */" />
+            <marker date="1518990761456" expanded="true" signature="762:1536" ph="{...}" />
+            <marker date="1518990761456" expanded="true" signature="820:913" ph="{...}" />
+            <marker date="1518990761456" expanded="true" signature="952:1015" ph="/* dynamic obj = GetVotos(); ... */" />
+            <marker date="1518990761456" expanded="true" signature="1085:1206" ph="{...}" />
+            <marker date="1518990761456" expanded="true" signature="1275:1414" ph="{...}" />
+            <marker date="1518990761456" expanded="true" signature="1607:2058" ph="{...}" />
+            <marker date="1518990761456" expanded="true" signature="1649:1742" ph="{...}" />
+            <marker date="1518990761456" expanded="true" signature="1788:1944" ph="{...}" />
           </folding>
         </state>
       </provider>

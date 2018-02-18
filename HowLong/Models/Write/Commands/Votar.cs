@@ -8,7 +8,6 @@ namespace HowLong.Models.Write.Commands
     public class Votar
     {
         // public int Id { get; set; }
-        public int Id { get; set; }
         public SerieWrite SerieId { get; set; }
         public int Nota { get; set; }
         

@@ -2,19 +2,29 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using HowLong.Helper;
+using HowLong.Models.Read;
 using HowLong.Models.Write.Commands;
-using HowLong.Models.Write.Persistance;
+using HowLong.Models.Write.Repository;
 
 namespace HowLong.Models.Write.CommandHandlers
 {
     public class SerieCommandHandler
     {
-        private readonly ISerieWriteRepository _serieWriteRepository;
+        private readonly ISerieRepository _serieRepository;
 
-        public SerieCommandHandler(ISerieWriteRepository serieWriteRepository)
+        public SerieCommandHandler(ISerieRepository serieRepository)
         {
-            _serieWriteRepository = serieWriteRepository;
+            _serieRepository = serieRepository;
         }
+        
+        //public List<Voto> GetVotos()
+        //{
+        //    using (var session = NHibernateHelper.OpenSession())
+        //        return session.Query<Voto>().ToList();
+        //}
+
+        
         public void HandleCadastrar(CadastrarSerie cmd)
         {
             if (string.IsNullOrEmpty(cmd.Nome))
@@ -22,15 +32,29 @@ namespace HowLong.Models.Write.CommandHandlers
                 throw new Exception("Nome deve ser informado.");
             }
             
+            
+            //dynamic obj = GetVotos();
+
+            //decimal media = obj;
+            
             var serieWrite = new SerieWrite
             {
-                Id = cmd.Id,
+                //Id = cmd.Id,
                 Nome = cmd.Nome,
                 Produtora = cmd.Produtora
             };
+            
+            var serieRead = new SerieRead
+            {
+                //Id = cmd.Id,
+                Nome = cmd.Nome,
+                Produtora = cmd.Produtora,
+                
+            };
+
 
             //usa o NHibernate para Add NO DB
-            _serieWriteRepository.AddSerie(serieWrite);
+            _serieRepository.AddSerie(serieWrite, serieRead );
         }
 
         // Handle de VOTAR
@@ -43,19 +67,16 @@ namespace HowLong.Models.Write.CommandHandlers
 
             var voto = new Voto
             {
-                Id = cmd.Id,
+                //Id = cmd.Id,
                 SerieId = cmd.SerieId,
                 Nota = cmd.Nota,
                 Data = DateTime.Today
             };
             
             //usa o NHibernate para Add NO DB
-            _serieWriteRepository.AddVoto(voto);
+            _serieRepository.AddVoto(voto);
         }
         
-        // TOP SERIES
-        public void HandleTop(Votar cmd)
-        {
-        }
+        
     }
 }

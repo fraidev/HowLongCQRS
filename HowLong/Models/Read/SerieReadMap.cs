@@ -13,6 +13,7 @@ namespace HowLong.Models.Read
             Id(x => x.Id, "Id");
 
             Map(x => x.Nome);
+            Map(x => x.Produtora);
             Map(x => x.Media);
         }
     }

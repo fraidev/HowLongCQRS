@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
+using HowLong.Models.Write;
 
-namespace HowLong.Models.Read.Persistance
+namespace HowLong.Models.Read.Repository
 {
     public interface ISerieReadRepository
     {

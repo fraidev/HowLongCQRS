@@ -20,7 +20,7 @@ namespace HowLong.Models.Write
         {
             Table("Votos");
             Id(x => x.Id);
-            References<SerieWrite>(x => x.SerieId);
+            References(x => x.SerieId);
             Map(x => x.Nota);
             Map(x => x.Data);
         }

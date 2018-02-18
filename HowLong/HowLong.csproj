@@ -137,15 +137,15 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Helper\NHibernateHelper.cs" />
-    <Compile Include="Models\Read\Persistance\ISerieReadRepository.cs" />
-    <Compile Include="Models\Read\Persistance\SerieRepository.cs" />
+    <Compile Include="Models\Read\Repository\ISerieReadRepository.cs" />
+    <Compile Include="Models\Read\Repository\SerieRepository.cs" />
     <Compile Include="Models\Read\SerieRead.cs" />
     <Compile Include="Models\Read\SerieReadMap.cs" />
-    <Compile Include="Models\Write\CommandHandlers\SerieCommandHandler.cs" />
+    <Compile Include="Models\Write\CommandHandlers\SerieWriteCommandHandler.cs" />
     <Compile Include="Models\Write\Commands\CadastrarSerie.cs" />
     <Compile Include="Models\Write\Commands\Votar.cs" />
-    <Compile Include="Models\Write\Persistance\ISerieWriteRepository.cs" />
-    <Compile Include="Models\Write\Persistance\SerieRepository.cs" />
+    <Compile Include="Models\Write\Repository\ISerieRepository.cs" />
+    <Compile Include="Models\Write\Repository\SerieRepository.cs" />
     <Compile Include="Models\Write\SerieWrite.cs" />
     <Compile Include="Models\Write\SerieWriteMap.cs" />
     <Compile Include="Models\Write\Voto.cs" />
