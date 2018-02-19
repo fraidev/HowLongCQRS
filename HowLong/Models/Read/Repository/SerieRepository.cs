@@ -21,6 +21,17 @@ namespace HowLong.Models.Read.Repository
             using (var session = NHibernateHelper.OpenSession())
                 return session.Query<SerieRead>().ToList();
         }
-        
+
+        public IEnumerable<SerieRead> GetTop(int quantidade)
+        {
+            using (var session = NHibernateHelper.OpenSession())
+            {
+                return session.Query<SerieRead>()
+                    .OrderByDescending(x => x.Media)
+                    .ThenBy(x => x.Nome)
+                    .Take(quantidade)
+                    .ToList();
+            }
+        }
     }
 }

@@ -10,22 +10,21 @@ namespace HowLong.Models.Write.Repository
     public class SerieRepository : ISerieRepository
     {
         // GET PARA O DELETE FUNCIONAR
-        public SerieWrite Get(int id)
+   /*     public SerieWrite Get(int id)
         {
             using (var session = NHibernateHelper.OpenSession())
                 return session.QueryOver<SerieWrite>()
                     .Where(c => c.Id == id)
                     .SingleOrDefault();
-        }
+        }*/
 
-        public SerieWrite AddSerie(SerieWrite serie, SerieRead read )
+        public SerieWrite AddSerie(SerieWrite serie)
         {
             using (var session = NHibernateHelper.OpenSession())
             {
                 using (var transaction = session.BeginTransaction())
                 {
                     session.Save(serie);
-                    session.Save(read);
                     transaction.Commit();
                 }
                 return serie;
@@ -46,7 +45,7 @@ namespace HowLong.Models.Write.Repository
         }
 
 
-        public void Delete(int id)
+/*        public void Delete(int id)
         {
             var serie = Get(id);
 
@@ -59,9 +58,9 @@ namespace HowLong.Models.Write.Repository
                 }
             }
 
-        }
+        }*/
 
-        public bool Update(SerieWrite serie)
+/*        public bool Update(SerieWrite serie)
         {
             using (var session = NHibernateHelper.OpenSession())
             {
@@ -81,6 +80,6 @@ namespace HowLong.Models.Write.Repository
                 }
                 return true;
             }
-        }
+        }*/
     }
 }

@@ -20,11 +20,12 @@ namespace HowLong.Controllers
     public class SeriesController : ApiController
     {
         private SerieCommandHandler _serieCommandHandler;
+        private ISerieReadRepository _serieReadRepository;
 
         public SeriesController()
         {
             var writeRepository = new SerieRepository();
-            var readRepository = new SerieReadRepository();
+            _serieReadRepository = new SerieReadRepository();
             _serieCommandHandler = new SerieCommandHandler(writeRepository);
         }
 
@@ -55,21 +56,23 @@ namespace HowLong.Controllers
           [AllowAnonymous]
           [Route("Get")]
           [HttpGet]
-          public SerieWrite Get(int id)
+          public IHttpActionResult Get(int id)
           {    
               using (var session = NHibernateHelper.OpenSession())
-                 return session.Get<SerieWrite>(id);
+                 return Ok(session.Get<SerieRead>(id));
           }
         
         
           [AllowAnonymous]
           [Route("GetAll")]
           [HttpGet]
-           public IEnumerable<SerieWrite> GetAll()
+           public IHttpActionResult GetAll()
         {
             using (var session = NHibernateHelper.OpenSession())
-                return session.Query<SerieWrite>().ToList();
+                return Ok(session.Query<SerieRead>().ToList());
         }
+
+
         
         
        [AllowAnonymous]
@@ -77,10 +80,15 @@ namespace HowLong.Controllers
        [HttpGet]
        public IHttpActionResult Top(int total)
         {
+            if (total < 1)
+            {
+                return BadRequest("Valor tem que ser igual ou maior que um.");
+            }
+            
             // TODO obter os top n do modelo de leitura.
-            //_serieReadCommandHandler.HandleTop(cmd);
+            var retval = _serieReadRepository.GetTop(total);
  
-            return Ok();
+            return Ok(retval);
         }
 
         #endregion

@@ -14,7 +14,7 @@ namespace HowLong.Models.Read
 
             Map(x => x.Nome);
             Map(x => x.Produtora);
-            Map(x => x.Media);
+            Map(x => x.Media, "MediaNota");
         }
     }
 }

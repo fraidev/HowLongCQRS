@@ -5,10 +5,10 @@ namespace HowLong.Models.Write.Repository
 {
     public interface ISerieRepository
     {
-        SerieWrite Get(int id);
-        SerieWrite AddSerie(SerieWrite serie, SerieRead read );
+        /*SerieWrite Get(int id);*/
+        SerieWrite AddSerie(SerieWrite serie);
         Voto AddVoto(Voto voto);
-        void Delete(int id);
-        bool Update(SerieWrite serie);
+       /* void Delete(int id);
+        bool Update(SerieWrite serie);*/
     }
 }

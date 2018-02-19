@@ -43,18 +43,9 @@ namespace HowLong.Models.Write.CommandHandlers
                 Nome = cmd.Nome,
                 Produtora = cmd.Produtora
             };
-            
-            var serieRead = new SerieRead
-            {
-                //Id = cmd.Id,
-                Nome = cmd.Nome,
-                Produtora = cmd.Produtora,
-                
-            };
-
-
+         
             //usa o NHibernate para Add NO DB
-            _serieRepository.AddSerie(serieWrite, serieRead );
+            _serieRepository.AddSerie(serieWrite);
         }
 
         // Handle de VOTAR
